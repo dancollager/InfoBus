@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aplimovil.infobus.Ruta">
+
+    <Button
+        android:id="@+id/consultar"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:text="CONSULTAR"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/favoritos"
+        android:layout_width="117dp"
+        android:layout_height="51dp"
+        android:text="FAVORITOS"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escanear QR"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORIGEN:"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESTINO:"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="245dp"
+        android:layout_height="27dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="241dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+</android.support.constraint.ConstraintLayout>
